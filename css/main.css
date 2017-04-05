@@ -1,0 +1,140 @@
+h1 {
+	font-family: "helvetica";
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 500;
+text-align: center;
+border: solid 1px;
+}
+h3{
+  font-family: "helvetica";
+  font-size: 20px;
+
+}
+h2{
+  font-family: "helvetica";
+  font-size: 25px;
+	border: dotted 1px;
+	margin-right: 450px;
+
+
+}
+html {
+  font: 100%/1.15 sans-serif;
+  }
+
+.classification{
+	padding-bottom: 500px;
+}
+body {
+		margin-top: 100px;
+		margin-right: 100px;
+		margin-bottom: 10px;
+		margin-left: 100px;
+		background: #000;
+	  color: #ffffff;
+  }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+  overflow: hidden;
+  }
+
+nav {
+  background: #000;
+  padding: 1em;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  }
+
+/* hide `details` marker */
+
+nav summary {
+  visibility: hidden;
+  cursor: pointer; /* change cursor from text to pointing hand */
+  }
+
+nav .summary-group {
+  float: left;
+  visibility: visible;
+  }
+
+/* show `summary` */
+
+nav .summary-group b {
+  display: inline-block;
+  text-transform: uppercase;
+  vertical-align: middle;
+  padding-bottom: .1em;
+  border-bottom: 1px solid #999;
+  }
+
+nav ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 1em 0 -1em;
+  clear: both; /* clear `.summary-group` float */
+  }
+
+nav a {
+  display: block;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1em;
+  border-top: 1px solid #ddd;
+  margin: 0 -1em; /* offset/undo `nav` padding for flush alignment */
+  }
+
+nav a:hover,
+nav a:focus {
+  color: #fff;
+  background: #999;
+  }
+
+/* horizontal menu for wider screens */
+
+@media (min-width: 40em) {
+
+  nav ol {
+    border-top: 1px solid #ddd;
+    margin-right: -1em;
+    margin-left: -1em;
+    }
+
+  nav li {
+    display: inline;
+    }
+
+  nav a {
+    display: inline-block;
+    border-top: 0;
+    margin: 0;
+    }
+
+p{
+  font-family: "helvetica";
+  font-size: 15px;
+}
+.max-width{
+  max-width:58em;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+img{
+  display: inline-block;
+	text-align:center;
+
+}
+.bubbles{
+	max-width: 100%;
+
+}
